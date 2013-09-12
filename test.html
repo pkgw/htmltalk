@@ -27,7 +27,8 @@
 
         <section>
           <h2>Slide 2</h2>
-          <p>Other stuff</p>
+	  <canvas id="canvas-2" style="border:1px solid black"></canvas>
+          <p>Commentary</p>
 
           <aside class="notes">
             Welcome to the speaker notes.
@@ -38,6 +39,7 @@
 
     <script src="reveal/lib/js/head.min.js"></script>
     <script src="reveal/js/reveal.min.js"></script>
+    <script src="pdfjs/build/pdf.js"></script>
 
     <script>
       Reveal.initialize({
@@ -62,6 +64,24 @@
           { src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: 'reveal/plugin/math/math.js', async: true },
         ],
+      });
+    </script>
+
+    <script type="text/javascript">
+      var url = 'lxlr.pdf';
+      PDFJS.disableWorker = true; // otherwise some XSS issue breaks things
+      PDFJS.getDocument(url).then(function getPdfHelloWorld(pdf) {
+        pdf.getPage(1).then(function getPageHelloWorld(page) {
+          var scale = 1.5;
+          var viewport = page.getViewport(scale);
+
+          var canvas = document.getElementById('canvas-2');
+          var context = canvas.getContext('2d');
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+
+          page.render({canvasContext: context, viewport: viewport});
+        });
       });
     </script>
   </body>
