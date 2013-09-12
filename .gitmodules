@@ -4,3 +4,6 @@
 [submodule "pdfjs"]
 	path = pdfjs
 	url = https://github.com/mozilla/pdf.js.git
+[submodule "mathjax"]
+	path = mathjax
+	url = https://github.com/mathjax/MathJax.git
