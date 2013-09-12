@@ -161,6 +161,19 @@ body {
 .footer {
     font-size: 80% !important;
     position: absolute;
+    bottom: 1em;
+    width: 100%;
+}
+
+.superfooter {
+    text-align: right;
+    font-size: 60% !important;
+    position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.lcred {
+    text-align: left;
+    font-size: 60% !important;
 }
