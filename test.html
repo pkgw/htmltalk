@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="reveal/css/reveal.min.css">
     <link rel="stylesheet" href="reveal/css/theme/default.css" id="theme">
     <link rel="stylesheet" href="reveal/lib/css/zenburn.css">
-    <!-- <link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print"> -->
+    <script>
+      document.write('<link rel="stylesheet" href="reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+    </script>
     <!--[if lt IE 9]>
     <script src="reveal/lib/js/html5shiv.js"></script>
     <![endif]-->
@@ -44,6 +46,7 @@
 
     <script src="reveal/lib/js/head.min.js"></script>
     <script src="reveal/js/reveal.min.js"></script>
+    <script src="pdfjs/web/compatibility.js"></script>
     <script src="pdfjs/build/pdf.js"></script>
 
     <script>
