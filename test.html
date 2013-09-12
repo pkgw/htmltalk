@@ -20,7 +20,7 @@
 
     <div class="reveal">
       <div class="slides">
-        <section>
+        <section data-background="assets/bd-aurora-impression_dwarfart.jpg">
           <h1>Title Slide</h1>
           <p>This is some text.</p>
         </section>
@@ -39,6 +39,7 @@
 	  <h2>Slide 3</h2>
 	  <p>Math test: $e^{2 \pi i} - 1 = 0$.</p>
 	  <p>$$\frac{a^2}{b^2 + c} = \log_{10} e^x$$</p>
+        </section>
       </div>
     </div>
 
@@ -54,13 +55,13 @@
         controls: false,
         progress: false,
         history: false,
-        center: true,
+        center: false,
         keyboard: true,
         touch: false,
         overview: false,
         mouseWheel: false,
 
-        theme: 'moon', // beige/default/moon/night/serif/simple/sky/solarized
+        theme: 'night', // beige/default/moon/night/serif/simple/sky/solarized
         transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
         transitionSpeed: 'default', // default/fast/slow
 
@@ -81,7 +82,7 @@
     </script>
 
     <script type="text/javascript">
-      var url = 'lxlr.pdf';
+      var url = 'assets/lxlr.pdf';
       PDFJS.disableWorker = true; // otherwise some XSS issue breaks things
       PDFJS.getDocument(url).then(function getPdfHelloWorld(pdf) {
         pdf.getPage(1).then(function getPageHelloWorld(page) {
