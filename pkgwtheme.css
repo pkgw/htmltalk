@@ -42,6 +42,10 @@ body {
   text-transform: none;
   text-shadow: none; }
 
+.reveal h1 {
+  font-size: 2.5em;
+  margin-top: 280px; }
+
 .reveal a:not(.image) {
   color: #e7ad52;
   text-decoration: none;
