@@ -83,6 +83,13 @@ body {
   font-size: 2.5em;
   margin-top: 280px; }
 
+.reveal h2 {
+  font-size: 1.5em;
+  text-align: left;
+  border-bottom: 1px solid;
+  width: 100%;
+  margin-bottom: 18px; }
+
 .reveal a:not(.image) {
   color: #e7ad52;
   text-decoration: none;
