@@ -79,17 +79,6 @@ body {
   text-transform: none;
   text-shadow: none; }
 
-.reveal h1 {
-  font-size: 2.5em;
-  margin-top: 280px; }
-
-.reveal h2 {
-  font-size: 1.5em;
-  text-align: left;
-  border-bottom: 1px solid;
-  width: 100%;
-  margin-bottom: 18px; }
-
 .reveal a:not(.image) {
   color: #e7ad52;
   text-decoration: none;
@@ -163,16 +152,38 @@ body {
   -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
+/* Styling customizations for standard elements */
+
+.reveal h1 {
+  font-size: 2.5em;
+  margin-top: 280px; }
+
+.reveal h2 {
+  font-size: 1.5em;
+  text-align: left;
+  border-bottom: 1px solid;
+  width: 100%;
+  margin-bottom: 18px; }
+
+.reveal p {
+  text-align: left;
+}
+
+.reveal blockquote {
+    background-color: rgba(40, 40, 70, 1);
+}
+
 /* Custom layout helpers */
 
-.footer {
+.reveal .footer {
+    text-align: center;
     font-size: 80% !important;
     position: absolute;
     bottom: 1em;
     width: 100%;
 }
 
-.bgcred {
+.reveal .bgcred {
     text-align: right;
     font-size: 60% !important;
     position: absolute;
@@ -180,12 +191,12 @@ body {
     width: 100%;
 }
 
-.lcred {
+.reveal .lcred {
     text-align: left;
     font-size: 60% !important;
 }
 
-.rcred {
+.reveal .rcred {
     text-align: right;
     font-size: 60% !important;
 }
