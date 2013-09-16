@@ -24,7 +24,7 @@
         <section data-background="assets/bd-aurora-impression_dwarfart.jpg">
           <h1>Magnetism in the Coolest, Smallest Stars</h1>
           <p class="footer">Peter K. G. Williams · @pkgw · http://newton.cx/~peter/ <br/>
-	    Bucknell University Physics Colloquium · 2013&nbsp;Sep&nbsp;19</p>
+	    Bucknell University Physics Colloquium · 2013 Sep 19</p>
 	  <p class="bgcred">Hallinan et al., NRAO/AUI/NSF</p>
 
 	  <aside class="notes">Question policy.</aside>
@@ -45,9 +45,10 @@
 	    <p>Magnetism plays a role on all sorts of scales:</p>
 	    <ul>
 	      <li>Galaxy clusters
-	      <li>Black hole accretion disks
-	      <li>Within galaxies
-	      <li class="fragment highlight-red">Stars and planets
+	      <li>Relativistic jets and shocks
+	      <li>Accretion disks around black holes, white dwarfs, etc.
+	      <li>The galactic interstellar medium
+	      <li class="fragment highlight-red">Stellar systems
 	    </ul>
 	  </div>
 	</section>
@@ -62,6 +63,40 @@
 	</section>
 
 	<section>
+	  <h2>The solar magnetic field is generated deep within the Sun’s
+	  interior.</h2>
+	  <p><em>Dynamo</em>: converts mechanical to electromagnetic energy.</p>
+	  <div class="ctr w70">
+	    <img src="assets/wp-Sun_poster.svg">
+	    <p class="lcred"><a href="http://commons.wikimedia.org/wiki/File:Sun_poster.svg">Wikimedia Commons</a></p>
+	  </div>
+	  <p>Solar dynamo believed to be an “α–Ω” mechanism.</p>
+	</section>
+
+	<section>
+	  <h2>The field is dissipated in the Sun’s outer atmosphere.</h2>
+	  <p>This dissipation powers flares, coronal mass ejections (CMEs),
+	    and underlies the mystery of coronal heating: how do you get
+	    10$^6$ K from 7000 K?</p>
+
+	  <div class="ctr w70">
+	    <video src="assets/soho-C2_Apr01.webm" width="100%" muted loop controls></video>
+	    <p class="lcred">NASA <a href="http://sohowww.nascom.nasa.gov/gallery/Movies/flares.html">Solar and Heliospheric Observatory</a></p>
+	  </div>
+	</section>
+
+	<section>
+	  <h2><em>Magnetic reconnection</em> is the key process.</h2>
+	  <p>The dominant dissipation mechanism, but a huge challenge to understand.</p>
+	  <div class="w90">
+	    <video src="assets/sdo-reconnection-yt720.webm" width="100%" muted controls></video>
+	    <p class="lcred">NASA SDO — <a href="http://youtu.be/MNsSQjSzLv0">YouTube</a></p>
+	  </div>
+
+	  <aside class="notes">Thy at 0:21; obs at 0:47.</aside>
+	</section>
+
+	<section>
 	  <h2>The Earth is magnetized too.</h2>
 	  <p>Average surface field ∼0.5 G (but radius is much smaller!).</p>
 	  <video src="assets/iss-aurora-yt360.webm" width="100%" muted
@@ -70,13 +105,26 @@
 	  — <a href="http://youtu.be/M99NywdrFfw">YouTube</a></p>
 	</section>
 
-	<!--
-	  <div style="width: 80%; margin-left: auto; margin-right: auto;">
-	    <canvas class="pdfimg" width=600 style="width: 100%"
-		    data-href="assets/berta-unpub_mass-radius-2013.pdf"></canvas>
-	    <p class="lcred">Courtesy Z. Berta</p>
+	<section>
+	  <h2>Magnetic activity is about more than cool movies.</h2>
+	  <p>CMEs routinely force satellite safe-moding</p>
+	  <p>Geomagnetic storm of 1989: nine-hour, Quebec-wide blackout</p>
+	  <p>“Carrington Event” of 1859:</p>
+	  <ul>
+	    <li>Telegraphs spontaneously catching fire
+	    <li>Aurorae visible in Cuba, Hawaii
+	    <li>Modern cost: $2 trillion? (<a href="http://www.lloyds.com/the-market/tools-and-resources/research/exposure-management/emerging-risks/emerging-risk-reports/business/solar-storm">Lloyd’s/AER</a>)
+	  </ul>
+	  <div style="width: 70%; margin-left: auto; margin-right: auto;">
+	    <img src="assets/nasa-ssn_yearly.jpg" />
+	    <p class="lcred">NASA</p>
 	  </div>
-	  -->
+	  <p>Maunder Minimum / “Little Ice Age”: tied to witch hunts?! (<a href="http://dx.doi.org/10.1023%2FA%3A1005554519604">Behringer 1999</a>)</p>
+	</section>
+
+	<section>
+	  <h2></h2>
+	</section>
 
 	<section>
 	  <h2>Thanks for listening!</h2>
@@ -85,6 +133,14 @@
 	</section>
       </div>
     </div>
+
+    <!--
+	<div style="width: 80%; margin-left: auto; margin-right: auto;">
+	  <canvas class="pdfimg" width=600 style="width: 100%"
+		  data-href="assets/berta-unpub_mass-radius-2013.pdf"></canvas>
+	  <p class="lcred">Courtesy Z. Berta</p>
+	</div>
+	-->
 
     <!-- End of slides. -->
 
@@ -97,7 +153,7 @@
       Reveal.initialize({
         controls: false,
         progress: false,
-        history: false,
+        history: true,
         center: false,
         keyboard: true,
         touch: false,
