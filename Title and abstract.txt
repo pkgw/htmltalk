@@ -1,0 +1,22 @@
+45 minutes
+Audience mostly physics undergraduates.
+
+============================================================
+
+Magnetism in the Coolest, Smallest Stars
+
+The outermost layers of our Sun are filled with not only a roiling, hot
+plasma, but also a tangled magnetic field that’s strong enough to
+significantly affect the plasma’s dynamics, leading to “space weather”
+phenomena like flares, coronal mass ejections, and the solar wind. The Earth
+is itself surrounded by a magnetic field, one that helps to shield us from the
+potentially harmful effects of space weather — it has been argued that life
+couldn’t exist on Earth without its protection. Although both the solar and
+terrestrial magnetic fields have been studied extensively, observations of
+other stars continue to expose gaps in our understanding. I’ll discuss the
+magnetism of the very smallest stars, which show several surprising effects —
+most notably the fact that they generate strong magnetic fields at all,
+counter to initial expectations. By studying these objects, we hope to not
+only better understand them, the Sun, and the Earth, but also to start to
+predict the magnetic behavior of planets around other stars, and thus whether
+they too might be habitable.
