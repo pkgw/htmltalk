@@ -172,7 +172,7 @@ body {
     width: 100%;
 }
 
-.superfooter {
+.bgcred {
     text-align: right;
     font-size: 60% !important;
     position: absolute;
@@ -184,3 +184,9 @@ body {
     text-align: left;
     font-size: 60% !important;
 }
+
+.rcred {
+    text-align: right;
+    font-size: 60% !important;
+}
+
