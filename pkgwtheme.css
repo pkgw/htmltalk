@@ -180,6 +180,7 @@ body {
 
 .reveal ul, .reveal ol {
     margin-left: 2em;
+    margin-bottom: 10px; /* same as <p> */
     width: 100%;
 }
 
@@ -204,6 +205,7 @@ body {
     margin-right: auto;
 }
 
+.reveal .w25 { width: 25%; }
 .reveal .w45 { width: 45%; }
 .reveal .w50 { width: 50%; }
 .reveal .w60 { width: 60%; }
