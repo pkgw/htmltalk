@@ -21,6 +21,11 @@
 
     <div class="reveal">
       <div class="slides">
+	<section>
+	  <p style="text-align: center"><br/><br/><br/>Turn off the popup
+	  blocker before starting!</p>
+	</section>
+
         <section data-background="assets/bd-aurora-impression_dwarfart.jpg">
           <h1>Magnetism in the Coolest, Smallest Stars</h1>
           <p class="footer">Peter K. G. Williams ·
@@ -46,11 +51,11 @@
 	  <div class="fragment">
 	    <p>Magnetism plays a role on all sorts of scales:</p>
 	    <ul>
-	      <li>Galaxy clusters
-	      <li>Relativistic jets and shocks
-	      <li>Accretion disks around black holes, white dwarfs, etc.
-	      <li>The interstellar medium within galaxies
-	      <li class="fragment highlight-red">Stellar systems
+	      <li>Galaxy clusters</li>
+	      <li>Relativistic jets and shocks</li>
+	      <li>Accretion disks around black holes, white dwarfs, etc.</li>
+	      <li>The interstellar medium within galaxies</li>
+	      <li class="fragment highlight-red">Stellar systems</li>
 	    </ul>
 	  </div>
 	</section>
@@ -129,9 +134,9 @@
 	  <p>Geomagnetic storm of 1989: nine-hour, Quebec-wide blackout</p>
 	  <p>“Carrington Event” of 1859:</p>
 	  <ul>
-	    <li>Telegraphs spontaneously catching fire
-	    <li>Aurorae visible in Cuba, Hawaii
-	    <li>Modern cost: $2 trillion? (<a href="http://www.lloyds.com/the-market/tools-and-resources/research/exposure-management/emerging-risks/emerging-risk-reports/business/solar-storm">Lloyd’s/AER</a>)
+	    <li>Telegraphs spontaneously catching fire</li>
+	    <li>Aurorae visible in Cuba, Hawaii</li>
+	    <li>Modern cost: $2 trillion? (<a href="http://www.lloyds.com/the-market/tools-and-resources/research/exposure-management/emerging-risks/emerging-risk-reports/business/solar-storm">Lloyd’s/AER</a>)</li>
 	  </ul>
 	  <p>Maunder Minimum / “Little Ice Age” tied to famines, wars, witch
 	  hunts (<a href="http://dx.doi.org/10.1023%2FA%3A1005554519604">Behringer 1999</a>)</p>
@@ -142,19 +147,70 @@
 	</section>
 
 	<section>
-	  <h2>Our understanding of the solar dynamo is far from complete.</h2>
-	  <div class="w70" style="position: absolute; top: 120px; left: 5px">
+	  <h2>Our understanding of the solar and terrestrial dynamos is far from complete.</h2>
+	  <p>Both phenomenologically and theoretically.</p>
+	  <div class="w65" style="position: absolute; top: 160px; left: 5px">
 	    <img src="assets/hathaway-bfly.gif" />
 	    <p class="lcred"><a href="http://solarscience.msfc.nasa.gov/SunspotCycle.shtml">NASA</a>
 	    / David Hathaway</p>
 	  </div>
-	  <div class="w25" style="position: absolute; right: 5px; bottom: 5px">
-	    <p class="lcred">Kitt Peak Solar Observatory</p>
+	  <div class="w30" style="position: absolute; right: 5px; bottom: 5px">
+	    <p class="lcred" style="margin-bottom: 0px">Kitt Peak Solar Observatory</p>
 	    <img src="assets/ucar-hale_rule.gif" />
 	  </div>
 
 	  <aside class="notes">22 yr cycle; grand minima; Joy's law (polarity
-	    pairing); Hale's law (tilts); MHD sim shortcomings</aside>
+	    pairing); Hale's law (tilts); MHD sim shortcomings; turbulence</aside>
+	</section>
+
+	<section>
+	  <h2>Very small stars can provide deep insight.</h2>
+	  <ul>
+	    <li>Empirically: high levels of magnetic activity</li>
+	    <li>Intermediate between Sun-like stars and planets</li>
+	    <li>Source of data: dependence of various observables on stellar properties</li>
+	    <li>Challenge/opportunity of <em>non-solar dynamo process</em></li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h2>We target <em>ultracool dwarfs</em> (UCDs).</h2>
+
+	  <p>The very smallest stars (hydrogen-burning) and brown dwarfs
+	  (BDs; no H fusion). Temperatures $\lesssim$3000 K.</p>
+
+	  <div style="display: inline-block"> <!-- inline-block shrinks the width -->
+	    <img src="assets/dutch-hrdiag2005.gif" />
+	    <p class="lcred">Steven Dutch / UW Green Bay</p>
+	  </div>
+
+	  <aside class="notes">Backwards axes. "Early/late" terminology.
+	  Breakdown of mass/SpT.</aside>
+	</section>
+
+	<section>
+	  <h2>UCDs may not be attention-getters, but they're everywhere!</h2>
+	  <p>A best-effort sample of objects within 8 parsecs (26 lightyears):</p>
+	  <div class="ctr w70">
+	    <img src="assets/kirkpatrick-nearby-spt.png">
+	    <p class="lcred"><a href="http://dx.doi.org/10.1088/0004-637X/753/2/156">
+		Kirkpatrick+ (2012)</a></p>
+	  </div>
+
+	  <aside class="notes">O/B dearth: fewer <em>and</em> die faster.</aside>
+	</section>
+
+	<section>
+	  <h2>The UCD/BD regime represents the transition between stars and planets.</h2>
+	  <p>… and this transition is not trivial!</p>
+	  <div class="ctr w85">
+	    <img src="assets/berta-unpub_mass-radius-2013.svg" class="w100">
+	    <p class="lcred">Courtesy Z. Berta.</p>
+	  </div>
+	  <p>Jupiter is ∼320 ($10^{2.5}$) Earth masses, 11 Earth radii.</p>
+	  <p>The Sun is ∼1000 Jupiter masses ($10^{5.5}$ Earth masses), 10 Jupiter radii.</p>
+
+	  <aside class="notes">Ignore GJ1214B.</aside>
 	</section>
 
 	<section>
@@ -220,7 +276,7 @@
 	    callback: function() { hljs.initHighlightingOnLoad (); }},
           { src: 'reveal/plugin/notes/notes.js', async: true,
 	    condition: function() { return !!document.body.classList; }},
-          { src: 'reveal/plugin/math/math.js', async: true },
+          { src: 'mymath.js', async: true },
 	  { src: 'pdfimgs.js', async: true },
 	  { src: 'slideautostart.js', async: true },
         ],

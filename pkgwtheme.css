@@ -77,7 +77,11 @@ body {
   line-height: 0.9em;
   letter-spacing: -0.03em;
   text-transform: none;
-  text-shadow: none; }
+  text-shadow: none; 
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
 
 .reveal a:not(.image) {
   color: #e7ad52;
@@ -181,7 +185,7 @@ body {
 .reveal ul, .reveal ol {
     margin-left: 2em;
     margin-bottom: 10px; /* same as <p> */
-    width: 100%;
+    width: calc(100% - 2em); /* sigh, anything better? */
 }
 
 .reveal ul {
@@ -206,11 +210,16 @@ body {
 }
 
 .reveal .w25 { width: 25%; }
+.reveal .w30 { width: 30%; }
 .reveal .w45 { width: 45%; }
 .reveal .w50 { width: 50%; }
 .reveal .w60 { width: 60%; }
+.reveal .w65 { width: 65%; }
 .reveal .w70 { width: 70%; }
+.reveal .w80 { width: 80%; }
+.reveal .w85 { width: 85%; }
 .reveal .w90 { width: 90%; }
+.reveal .w100 { width: 100%; }
 
 .reveal .footer {
     text-align: center;
