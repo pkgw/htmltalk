@@ -23,7 +23,9 @@
       <div class="slides">
         <section data-background="assets/bd-aurora-impression_dwarfart.jpg">
           <h1>Magnetism in the Coolest, Smallest Stars</h1>
-          <p class="footer">Peter K. G. Williams · @pkgw · http://newton.cx/~peter/ <br/>
+          <p class="footer">Peter K. G. Williams · 
+	    <a href="https://twitter.com/pkgw">@pkgw</a> · 
+	    <a href="http://newton.cx/~peter/">http://newton.cx/~peter/</a><br/>
 	    Bucknell University Physics Colloquium · 2013 Sep 19</p>
 	  <p class="bgcred">Hallinan et al., NRAO/AUI/NSF</p>
 
@@ -47,7 +49,7 @@
 	      <li>Galaxy clusters
 	      <li>Relativistic jets and shocks
 	      <li>Accretion disks around black holes, white dwarfs, etc.
-	      <li>The galactic interstellar medium
+	      <li>The interstellar medium within galaxies
 	      <li class="fragment highlight-red">Stellar systems
 	    </ul>
 	  </div>
@@ -57,7 +59,7 @@
 	  <h2>The Sun is magnetized.</h2>
 	  <p>Average surface field ∼1 Gauss (∼$10^{-4}$ Tesla).</p>
 	  <video src="assets/sdo-plasma-rain-yt720.webm" width="100%" muted
-		 controls autoplay loop></video>
+		 controls loop class="slideautostart"></video>
 	  <p class="lcred">NASA Solar Dynamics Observatory AIA
 	  — <a href="http://youtu.be/M4kT0xoCiPg">YouTube</a></p>
 	</section>
@@ -77,7 +79,7 @@
 	  <h2>The field is dissipated in the Sun’s outer atmosphere.</h2>
 	  <p>This dissipation powers flares, coronal mass ejections (CMEs),
 	    and underlies the mystery of coronal heating: how do you get
-	    10$^6$ K from 7000 K?</p>
+	    &gt;10$^6$ K from 7000 K?</p>
 
 	  <div class="ctr w70">
 	    <video src="assets/soho-C2_Apr01.webm" width="100%" muted loop controls></video>
@@ -86,7 +88,7 @@
 	</section>
 
 	<section>
-	  <h2><em>Magnetic reconnection</em> is the key process.</h2>
+	  <h2><em>Magnetic reconnection</em> is a key process.</h2>
 	  <p>The dominant dissipation mechanism, but a huge challenge to understand.</p>
 	  <div class="w90">
 	    <video src="assets/sdo-reconnection-yt720.webm" width="100%" muted controls></video>
@@ -98,9 +100,24 @@
 
 	<section>
 	  <h2>The Earth is magnetized too.</h2>
-	  <p>Average surface field ∼0.5 G (but radius is much smaller!).</p>
+	  <p>Average surface field ∼0.5 G (but radius is much smaller than Sun!).</p>
+	  <br/>
+	  <div class="w45" style="display: inline-block; height: 360px; margin-right: 5px;">
+	    <img src="assets/728501main_themis-magnetosphere.jpg"/>
+	    <p class="lcred">NASA / Goddard Space Flight Center</p>
+	  </div>
+	  <div class="w45" style="display: inline-block; height: 360px; margin-left: 5px;">
+	    <video src="assets/nasa-earth-recut-yt360.webm" muted controls></video>
+	    <p class="lcred">NASA — <a href="http://youtu.be/lxWBlJ1kB7Q">YouTube</a></p>
+	  </div>
+	  <p>Field is much more dipolar than Sun.</p>
+	  <p>Deflects CMEs and the solar wind — <em>vital</em> protection!</p>
+	</section>
+
+	<section>
+	  <h2>Aurorae are reconnection phenomena.</h2>
 	  <video src="assets/iss-aurora-yt360.webm" width="100%" muted
-		 controls autoplay loop></video>
+		 controls loop class="slideautostart"></video>
 	  <p class="lcred">NASA
 	  — <a href="http://youtu.be/M99NywdrFfw">YouTube</a></p>
 	</section>
@@ -184,6 +201,7 @@
 	    condition: function() { return !!document.body.classList; }},
           { src: 'reveal/plugin/math/math.js', async: true },
 	  { src: 'pdfimgs.js', async: true },
+	  { src: 'slideautostart.js', async: true },
         ],
       });
     </script>

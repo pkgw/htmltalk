@@ -170,7 +170,7 @@ body {
     background-color: rgba(40, 40, 70, 1);
 }
 
-.reveal div img {
+.reveal section div img, .reveal section div video {
     /* If inside a <div>, assume manual layout; let the image
        fill the whole box */
     max-width: 100%;
