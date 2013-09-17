@@ -152,18 +152,20 @@ body {
 /* Styling customizations for standard elements */
 
 .reveal h1 {
-  font-size: 2.5em;
-  margin-top: 280px; }
+    font-size: 2.5em;
+    margin-top: 280px;
+}
 
 .reveal h2 {
-  font-size: 1.5em;
-  text-align: left;
-  border-bottom: 1px solid;
-  width: 100%;
-  margin-bottom: 18px; }
+    font-size: 1.5em;
+    text-align: left;
+    border-bottom: 1px solid;
+    width: 100%;
+    margin-bottom: 18px;
+}
 
 .reveal p {
-  text-align: left;
+    text-align: left;
 }
 
 .reveal blockquote {
@@ -202,17 +204,11 @@ body {
     margin-right: auto;
 }
 
-.reveal .w45 {
-    width: 45%;
-}
-
-.reveal .w50 {
-    width: 50%;
-}
-
-.reveal .w70 {
-    width: 70%;
-}
+.reveal .w45 { width: 45%; }
+.reveal .w50 { width: 50%; }
+.reveal .w60 { width: 60%; }
+.reveal .w70 { width: 70%; }
+.reveal .w90 { width: 90%; }
 
 .reveal .footer {
     text-align: center;
@@ -239,3 +235,9 @@ body {
     text-align: right;
     font-size: 55% !important;
 }
+
+/* for debugging; note that the border offsets the layout slightly.
+.reveal .slides section.present {
+    border: 2px solid red;
+}
+*/
