@@ -250,6 +250,12 @@ body {
     font-size: 55% !important;
 }
 
+.reveal .spacer {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+
 /* for debugging; note that the border offsets the layout slightly.
 .reveal .slides section.present {
     border: 2px solid red;
