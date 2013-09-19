@@ -256,8 +256,8 @@ body {
     margin: 10px 0px;
 }
 
-/* for debugging; note that the border offsets the layout slightly.*/
+/* for debugging; note that the border offsets the layout slightly.
 .reveal .slides section.present {
     border: 2px solid red;
 }
-/**/
+*/
