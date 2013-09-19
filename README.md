@@ -10,6 +10,10 @@ website](http://www.cfa.harvard.edu/~pwilliam/htmltalk/). **There are
 currently some problems with some of the SVG figures related to the web
 server, not the presentation itself.**
 
+The actual talk was a physics colloquium at (Bucknell
+University)[http://www.bucknell.edu/], aimed primarily at physics
+undergraduates with a 45-minute run time. It was given on September 19, 2013.
+
 ## The basic rundown
 
 The presentation is built on a great little framework called
@@ -20,7 +24,7 @@ What are some of the key features that make this viable for scientific
 talks, at least the kind that I give?
 
 * **Easy support for embedded math** using [MathJax](http://www.mathjax.org/)
-* **Good support for PDF plots** using 
+* **Good support for PDF plots** using
   [pdf.js](http://mozilla.github.io/pdf.js/)
 * **A nice “presenter console” mode** built into ``reveal.js``.
 * **Support for exporting as a PDF** (just in case …) also built
@@ -90,11 +94,16 @@ Should I try using this, or stick with LibreOffice Impress / PowerPoint / Keynot
 
 ## Testing a local copy
 
-To test out the slides on your local machine, you should first clone this
-repository. You’ll then need to download and unpack what I call the “assets”,
-the various large graphics and video files. [Here’s a zipfile of the
-assets](https://www.cfa.harvard.edu/~pwilliam/htmltalk/htmltalk-assets.zip)
-(113 MB). Then ``firefox ./slides.html``.
+To test out the slides on your local machine:
+
+1. Clone this repository.
+2. Enter the directory and fetch the dependent libraries
+   with ``git submodule update --init``.
+3. Download and unpack what I call the “assets”, the various large graphics
+  and video files. [Here’s a zipfile of the
+  assets](https://www.cfa.harvard.edu/~pwilliam/htmltalk/htmltalk-assets.zip)
+  (113 MB).
+4. Finally, ``firefox ./slides.html``.
 
 I tested this only on Firefox, though you need to use Chrome for PDF export
 (see below). I’m not to keen to get into browser compatibility testing, so I
