@@ -10,15 +10,15 @@ website](http://www.cfa.harvard.edu/~pwilliam/htmltalk/). **There are
 currently some problems with some of the SVG figures related to the web
 server, not the presentation itself.**
 
-The actual talk was a physics colloquium at (Bucknell
-University)[http://www.bucknell.edu/], aimed primarily at physics
+The actual talk was a colloquium at [Bucknell
+University](http://www.bucknell.edu/), aimed primarily at physics
 undergraduates with a 45-minute run time. It was given on September 19, 2013.
 
 ## The basic rundown
 
 The presentation is built on a great little framework called
 [reveal.js](http://lab.hakim.se/reveal-js/). It worked out really well for
-my needs.
+my needs. It’s [on Github too](https://github.com/hakimel/reveal.js).
 
 What are some of the key features that make this viable for scientific
 talks, at least the kind that I give?
@@ -35,6 +35,8 @@ What are the advantages?
 * Much faster to edit presentation, reorder slides, etc: all done in text. This
   may not sound super significant, but all I can say is that compared to Impress,
   for me the experience was **vastly** more pleasant.
+* I’m very happy with the look of the talk. The typography is much better than
+  what I could ever bother to achieve with LibreOffice.
 * Possibly more portable across machines than some aspects of PowerPoint-type
   presentations.
 * I feel much more confident in doing video and fancy effects in a web
@@ -68,6 +70,8 @@ What are the novel aspects of this particular presentation?
   generically useful, probably).
 * iframe example to show embedding of a website in the presentation.
 * Use of Git submodules to include JS libraries.
+* Downloaded copies of Google Web Fonts to avoid needing web access
+  while presenting.
 
 What tools were helpful for making this presentation?
 
@@ -76,14 +80,14 @@ What tools were helpful for making this presentation?
 * Keyboard compose key and Greek layout for fast entry of non-ASCII symbols.
 * Significant background information plus Firefox web developer tools and
   reference information for getting the various HTML and CSS things to work.
-* [``pdftocairo``](http://poppler.freedesktop.org/) for converting PDFs to SVGs.
+* [pdftocairo](http://poppler.freedesktop.org/) for converting PDFs to SVGs.
 * [Transmaggedon](http://www.linuxrising.org/) for transcoding videos to WebM.
 * [PiTiVi](http://www.pitivi.org/) for mild editing of YouTube videos.
 * [My setup for extracting
   figures](http://newton.cx/~peter/2012/10/extracting-pdf-figures-as-pdfs-in-linux/)
   from PDFs, as PDFs, on Linux.
 
-Should I try using this, or stick with LibreOffice Impress / PowerPoint / Keynote?
+“Should I try using this, or stick with LibreOffice Impress / PowerPoint / Keynote?”
 
 * After reading all of the above, you probably can tell what the right
   answer is for you. All I can say is that if you hate Impress, HTML might
@@ -111,7 +115,8 @@ hope it works for you, but no guarantees.
 
 ### Exporting the presentation in PDF
 
-This is a bit of a hassle but is possible. Huzzah!
+This is a bit of a hassle but is possible. Huzzah! See also the instructions
+provided with ``reveal.js``.
 
 1. Open the presentation in Google Chrome, launching Chrome with
    the flag ``--allow-file-access-from-files``.
