@@ -22,27 +22,30 @@ talks, at least the kind that I give?
 * **Easy support for embedded math** using [MathJax](http://www.mathjax.org/)
 * **Good support for PDF plots** using 
   [pdf.js](http://mozilla.github.io/pdf.js/)
-* A nice “presenter console” mode built into ``reveal.js``.
-* Support for exporting as a PDF (just in case …) also built
+* **A nice “presenter console” mode** built into ``reveal.js``.
+* **Support for exporting as a PDF** (just in case …) also built
   into ``reveal.js``.
 
 What are the advantages?
 
-* Much faster to edit presentation, reorder slides, etc: all done in text.
+* Much faster to edit presentation, reorder slides, etc: all done in text. This
+  may not sound super significant, but all I can say is that compared to Impress,
+  for me the experience was **vastly** more pleasant.
 * Possibly more portable across machines than some aspects of PowerPoint-type
   presentations.
 * I feel much more confident in doing video and fancy effects in a web
   browser than LibreOffice.
 * Possibility to build in **truly** fancy effects with interactive
-  JavaScript doodads.
+  JavaScript doodads. To be investigated in the future …
 * Development of the presentation can be tracked in a version control
   system such as [Git](http://git-scm.com/).
 
 What are the disadvantages?
 
-* Layout and styling using HTML and CSS is difficult and annoying for normal
-  people. The Firefox inspector tools helped greatly. On the other hand,
-  really only a few tricks are necessary for standard slide layouts.
+* Layout and styling using HTML and CSS are difficult and annoying for normal
+  people. The Firefox inspector tools helped greatly. Really, only a few
+  tricks are necessary for standard slide layouts, but I suspect that this
+  will be a dealbreaker for folks without web experience.
 * You need to be careful about not relying on network resources for your
   slide content … unless you’re sure that the computer using your talk will
   always have a good Internet connection.
@@ -64,14 +67,14 @@ What are the novel aspects of this particular presentation?
 
 What tools were helpful for making this presentation?
 
-* Git for version control.
+* [Git](http://git-scm.com/) for version control.
 * Good knowledge of Emacs for efficient HTML editing.
-* Keyboard compose key and Greek layout for fast entry of symbols.
+* Keyboard compose key and Greek layout for fast entry of non-ASCII symbols.
 * Significant background information plus Firefox web developer tools and
   reference information for getting the various HTML and CSS things to work.
-* ``pdftocairo`` for converting PDFs to SVGs.
-* Transmaggedon for transcoding videos to WebM.
-* PiTiVi for mild editing of YouTube videos.
+* [``pdftocairo``](http://poppler.freedesktop.org/) for converting PDFs to SVGs.
+* [Transmaggedon](http://www.linuxrising.org/) for transcoding videos to WebM.
+* [PiTiVi](http://www.pitivi.org/) for mild editing of YouTube videos.
 * [My setup for extracting
   figures](http://newton.cx/~peter/2012/10/extracting-pdf-figures-as-pdfs-in-linux/)
   from PDFs, as PDFs, on Linux.
@@ -91,7 +94,7 @@ To test out the slides on your local machine, you should first clone this
 repository. You’ll then need to download and unpack what I call the “assets”,
 the various large graphics and video files. [Here’s a zipfile of the
 assets](https://www.cfa.harvard.edu/~pwilliam/htmltalk/htmltalk-assets.zip)
-(113 MB).
+(113 MB). Then ``firefox ./slides.html``.
 
 I tested this only on Firefox, though you need to use Chrome for PDF export
 (see below). I’m not to keen to get into browser compatibility testing, so I
