@@ -1,3 +1,13 @@
+# An HTML5 Astrophysics Talk
+
+I recently had my last straw dealing with
+[LibreOffice](http://libreoffice.org/) and decided to try to take the plunge
+and make a scientific presentation using HTML5 and JavaScript. I was very
+happy with how things went, so I thought I'd share how I did it.
+
+Of course you can [check out the talk on a live
+website](http://www.cfa.harvard.edu/~pwilliams/htmltalk/).
+
 ### Exporting the presentation in PDF
 
 This is a bit of a hassle but is possible. Huzzah!
