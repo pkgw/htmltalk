@@ -24,6 +24,9 @@
 	<section>
 	  <p style="text-align: center"><br><br><br>Turn off the popup
 	  blocker before starting!</p>
+	  <p style="text-align: center">Open presenter console with <code>s</code>.</p>
+	  <p style="text-align: center">This really isn’t going to work
+	    if the assets haven't been downloaded!</p>
 	</section>
 
         <section data-background="assets/bd-aurora-impression_dwarfart.jpg">
@@ -39,6 +42,13 @@
 	       easily define a CSS class that affects their styling. So I do it
 	       all manually here with style="color: red". -->
 	  <aside class="notes">Question policy.</aside>
+        </section>
+
+        <section data-background="assets/bd-aurora-impression_dwarfart.jpg">
+          <h1>Magnetism in the Coolest, Smallest Stars</h1>
+	  <br><br><br>
+	  <p style="text-align: center; font-size: larger">PKGW, Edo Berger,
+	    Ben Cook, John Gizis, Ashley Zauderer</p>
         </section>
 
 	<section>
@@ -231,42 +241,88 @@
 	  <p>What happens to the dynamo?!</p>
 
 	  <aside class="notes">Explain mass labels.
-	    <p style="color: red">“… but it turns out that UCDs are quite
-	      magnetically active”</p></aside>
+	    <p style="color: red">“this does not bode well for UCD
+	      magnetism”</p></aside>
 	</section>
 
 	<section>
-	  <h2>Magnetic activity is robust over the transition to full
-	  convection.</h2>
+	  <h2>Emission in many bands traces magnetism.</h2>
 
-	  <p class="w40">How do we know this?</p>
-	  <p class="w40"><em>Corona</em>: X-rays, radio</p>
-	  <p class="w40"><em>Transition region</em>: ultraviolet</p>
-	  <p class="w40"><em>Chromosphere</em>: optical spectral lines (e.g. Hα, 6563 Å)</p>
-	  <p class="w40"><em>Photosphere</em>: optical broadband variability</p>
-
-	  <div class="w55" style="position: absolute; top: 120px; right: 5px">
+	  <div class="ctr w70">
 	    <img class="w100" src="assets/mailmagazine24_sun-schematic.jpg">
 	    <p class="lcred">mailmagazine24.com (climate change denialists)</p>
 	  </div>
 
-	  <div class="w40" style="position: absolute; bottom: 5px; left: 5px">
+	  <p><em>Corona</em>: X-rays, radio</p>
+	  <p><em>Transition region</em>: ultraviolet</p>
+	  <p><em>Chromosphere</em>: optical spectral lines (e.g. Hα, 6563 Å)</p>
+	  <p><em>Photosphere</em>: optical broadband variability</p>
+	</section>
+
+	<section>
+	  <h2>Standard tracers show a drop in magnetism. </h2>
+
+	  <div style="float: left" class="w50">
+	    <img src="assets/lxspt.svg">
+	    <p class="lcred">PKGW+ (2013)</p>
+	  </div>
+
+	  <div style="float: right" class="w45">
+	    <img src="assets/berger-2010-f5_lha-lb.png">
+	    <p class="lcred">Berger+ (2010)</p>
+	  </div>
+
+	  <aside class="notes"><span style="color: green">does not bode
+	    well</span> • ... • <span style="color: red">“?”</span></aside>
+	</section>
+
+	<section>
+	  <h2>Radio observations show $\vec B$ remains robust over the
+	  transition to full convection.</h2>
+	  <div class="w45" style="float: right">
+	    <img src="assets/berger-2009-f1_bursts.png">
+	    <p class="lcred"><a href="http://dx.doi.org10.1088/0004-637X/695/1/310">Berger+
+	    (2009)</a></p>
+	  </div>
+
+	  <p>Bright, bursty, circularly-polarized emission strongly indicates
+	    <em>electron cyclotron maser instability</em> (ECMI).</p>
+	  <p>$$\nu_\textrm{cyc} = \frac{e B}{2 \pi m_e c}$$</p>
+	  <p>Easy handle on the characteristic magnetic field strength:</p>
+	  <p>$$B \approx (360\textrm{ G}) \frac{\nu}{1\textrm{ GHz}}$$</p>
+	  <p>Recall: solar surface field is ∼1 G.</p>
+	  <p>This remains true down to extremely cool (900 K) objects
+	  (<a href="http://dx.doi.org/10.1088/2041-8205/747/2/l22">Route &amp;
+	  Wolszczan, 2012</a>).
+
+	  <aside class="notes"><p style="color: red">“radio emission is just one way we probe
+	      magnetic activity, and others show similar results.”</p></aside>
+	</section>
+
+	<section>
+	  <h2>This elevated radio emission is a surprise.</h2>
+	  <p>Sun-like stars obey $L_R \propto L_X^{\sim 3/4}$.</p>
+	  <div class="ctr w55">
+	    <img src="assets/lxlr.svg" class="w100">
+	    <p class="lcred">PKGW+ (2013)</p>
+	  </div>
+	  <p>Another sign of a different regime of dynamo activity.</p>
+	</section>
+
+	<section>
+	  <h2>The fraction of active stars also increases.</h2>
+
+	  <p>In fact, it seems to shoot up past the transition to full
+	    convection.</p>
+
+	  <div class="ctr w70">
 	    <!-- SVG doesn't really support colored backgrounds (!) but we can
 		 accomplish them with CSS -->
 	    <img class="w100" style="background: white;" src="assets/west-2008-f3_act-vs-spt.svg">
 	    <p class="lcred"><a href="http://dx.doi.org/10.1088/0004-6256/135/3/785">West+ (2008)</a></p>
 	  </div>
 
-	  <div class="w55" style="position: absolute; bottom: 5px; right: 5px">
-	    <p>This is already telling us something significant about magnetic
-	      field generation!</p>
-	  </div>
-
-	  <aside class="notes"><span style="color: green">“How do we know
-	      this?”</span> • xition to planetary-type dynamo?
-	      • <span style="color: red">“One reason for this high activity
-	      fraction is that UCDs are rapid rotators, and rotation is
-	      correlated with magnetic activity.”</span></aside>
+	  <p>Yet another new behavior toward the UCD regime.</p>
 	</section>
 
 	<section>
@@ -279,7 +335,7 @@
 	  <p>This makes sense in standard dynamo models.</p>
 
 	  <div class="ctr w80">
-	    <img class="w100" style="background: white;" src="assets/wright-2013-f1_rot-act.png">
+	    <img class="w100" src="assets/wright-2013-f1_rot-act.png">
 	    <p class="lcred"><a href="http://dx.doi.org/10.1002/asna.201211764">Wright+
 	    (2013)</a></p>
 	  </div>
@@ -305,16 +361,14 @@
 	</section>
 
 	<section>
-	  <h2>Things start going haywire in the M→L zone.</h2>
-
-	  <div style="float: left" class="w45">
-	    <img src="assets/lxspt.svg">
-	    <p class="lcred">PKGW+ (2013)</p>
+	  <h2>UCDs upset the standard rotation/activity relation.</h2>
+	  <p>Fast rotation <em>and</em> a falloff of X-ray emission.</p>
+	  <div class="ctr w65">
+	    <img class="w100" src="assets/xrot.svg">
+	    <p class="lcred">Cook, PKGW+ (2013)</p>
 	  </div>
-
-	  <aside class="notes"><span style="color: green">“… until our
-	      observational tracers start going haywire”</span> • ...
-	    • <span style="color: red">“?”</span></aside>
+	  <p>The big puzzle: is this really due to rotation, or is it just a
+	    correlation effect with mass?</p>
 	</section>
 
 	<section>
@@ -326,7 +380,7 @@
 	      <a href="http://newton.cx/~peter/">http://newton.cx/~peter/</a>
 	    </p>
 
-	    <p><em>Design credits</em>: 
+	    <p><em>Design credits</em>:
 	      <a href="http://hakim.se/">Hakim El Hattab</a> (“night” theme),
 	      <a href="https://twitter.com/julietulanovsky">Julieta Ulanovsky</a> (Montserrat font),
 	      <a href="http://www.monotypeimaging.com/ProductsServices/TypeDesignerShowcase/SteveMatteson/">Steve Matteson</a> (Open Sans font).
