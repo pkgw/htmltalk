@@ -3,12 +3,9 @@
 I recently had my last straw dealing with
 [LibreOffice](http://libreoffice.org/) and decided to try to take the plunge
 and make a scientific presentation using HTML5 and JavaScript. I was very
-happy with how things went, so I thought I'd share how I did it.
-
-Of course you can [check out the talk on a live
-website](http://www.cfa.harvard.edu/~pwilliam/htmltalk/). **There are
-currently some problems with some of the SVG figures related to the web
-server, not the presentation itself.**
+happy with how things went, so I thought I'd share how I did it. Of course you
+can [check out the talk on a live
+website](http://www.cfa.harvard.edu/~pwilliam/htmltalk/).
 
 The actual talk was a colloquium at [Bucknell
 University](http://www.bucknell.edu/), aimed primarily at physics
