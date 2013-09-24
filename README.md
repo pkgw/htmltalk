@@ -124,3 +124,8 @@ provided with ``reveal.js``.
   - *Margins* to *None*
   - *Background colors and images* option *enabled*
 4. Save it.
+
+### Bare-bones template
+
+The ``skeleton`` branch removes a few nonessential files and content specific
+to this talk, leaving a bare-bones template upon which new talks can be built.
